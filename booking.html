@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css	">
+	<link  href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="header">
+<div class="container">
+	<nav class="primary-menu">
+		<div class="nav-left">
+<a href="#" class="develop">Seastreak Hotel</a>
+		</div>
+		<div class="nav-right">
+		<ul>
+
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="rooms.html">ROOMS</a></li>
+			<li><a href="memories.html">MEMORIES</a></li>
+			<li><a href="destination.html">DESTINATION</a>
+			<li><a href="booking.html">BOOKING</a>
+			<li><a href="gathering.html">GATHERINGS</a>
+			<ul>
+				<li><a href="wedding.html">WEDDING</a></li>
+				<li><a href="meeting.html">MEETING</a></li>
+			</ul>
+			</li>
+				
+
+		</ul>
+		</div>
+</div>
+  </div>
+</header>
+
+<section class="contact">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6">
+				<h2>Booking</h2>
+            <form class="con-form">
+            <div class="form-group">
+              <input type="text" class="form-control" name="" value="" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="" value="" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <input type="tel" class="form-control" name="" value="" placeholder="Phone">
+            </div>
+             <div class="form-group">
+              <input type="text" class="form-control" name="" value="" placeholder="Street">
+            </div>
+             <div class="form-group">
+              <input type="number" class="form-control" name="" value="" placeholder="street-number">
+            </div>
+             <div class="form-group">
+              <input type="text" class="form-control" name="" value="" placeholder="city">
+            </div>
+             <div class="form-group">
+              <input type="number" class="form-control" name="" value="" placeholder="post-code">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="" rows="7" placeholder="Type your message here"></textarea>
+            </div>
+            <button class="btn btnsend" type="submit" name="button" onclick="send()">
+                Send It
+            </button>
+          </form>
+        </div>
+			</div>
+						<h4>Details</h4>
+			<div class="col-md-4">
+				<h4 class="heading">proceed</h4>
+				<!-- <div class="grid">
+      <div class="controls"> -->
+        <i class="fa fa-sort"></i>
+        <select class="floatLabel">
+          <option value="blank"></option>
+          <option value="1">1</option>
+          <option value="2" selected>2</option>
+          <option value="3">3</option>
+        </select>
+        <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;People</label>
+      </div>      
+    </div>
+    <div class="col-md-4">
+    <div class="controls">
+      <i class="fa fa-sort"></i>
+      <select class="floatLabel">
+        <option value="blank"></option>
+        <option value="deluxe" selected>With Bathroom</option>
+        <option value="Zuri-zimmer">Without Bathroom</option>
+      </select>
+      <label for="fruit">Room</label>
+     </div>     
+    </div>
+
+    <div class="col-md-4">
+    <div class="controls">
+      <i class="fa fa-sort"></i>
+      <select class="floatLabel">
+        <option value="blank"></option>
+        <option value="single-bed">Zweibett</option>
+        <option value="double-bed" selected>Doppelbett</option>
+      </select>
+      <label for="fruit">Bedding</label>
+     </div>     
+    </div>
+			</div>
+			</div>
+		</div>
+</section>
+  
+<!-- <div class="booking-form-box">
+	<div class="radio-btn">
+		<input type="radio" class="btn" name="check" checked="checked"><span></span>
+		<input type="radio" class="btn" name="check"><span></span>
+		<input type="radio" class="btn" name="check"><span></span>
+		<input type="radio" class="btn" name="check"><span></span>
+	</div>
+</div>
+<div class="booking-form">
+	<label>flying from</label>
+	<input type="text" class="form-control" placeholder="rooms">
+	<label>flying To</label>
+	<input type="text" class="form-control" placeholder="rooms">
+</div>
+<div class="input-grp">
+		<label>Returning</label> 
+	<input type="date" class="form-control select-date">
+
+</div>
+<div class="input-grp">
+		<label>Returning</label> 
+	<input type="date" class="form-control select-date">
+
+</div>
+<div class="input-grp">
+		<label>Audlt</label> 
+	<input type="number" class="form-control" value="1>
+
+</div>
+<div class="input-grp">
+		<label>children</label> 
+	<input type="number" class="form-control" value="0">
+
+</div>
+<div class="input-grp">
+		<label>Travel class</label> 
+		<select class="custom-select">
+			<option value="1"></option>
+			<option value="2"></option>
+		</select>
+	
+
+</div>
+
+<div class="input-grp">
+	<button type="button" class="btn btn-primary flight">Show flight</button>
+</div>
+
+ 
+<!--
+ <div class="form-group">
+    <h2 class="heading">Booking & contact</h2>
+    <div class="controls">
+      <input type="text" id="name" class="floatLabel" name="name">
+      <label for="name">Name</label>
+    </div>
+    <div class="controls">
+      <input type="text" id="email" class="floatLabel" name="email">
+      <label for="email">Email</label>
+    </div>       
+    <div class="controls">
+      <input type="tel" id="phone" class="floatLabel" name="phone">
+      <label for="phone">Phone</label>
+    </div>
+      <div class="grid">
+        <div class="col-md-12">
+          <div class="controls">
+           <input type="text" id="street" class="floatLabel" name="street">
+           <label for="street">Street</label>
+          </div>          
+        </div>
+        <div class="col-md-12">
+          <div class="controls">
+            <input type="number" id="street-number" class="floatLabel" name="street-number">
+            <label for="street-number">Number</label>
+          </div>          
+        </div>
+      </div>
+      <div class="grid">
+        <div class="col-md-12">
+          <div class="controls">
+            <input type="text" id="city" class="floatLabel" name="city">
+            <label for="city">City</label>
+          </div>         
+        </div>
+        <div class="col-md-12">
+          <div class="controls">
+            <input type="text" id="post-code" class="floatLabel" name="post-code">
+            <label for="post-code">Post Code</label>
+          </div>         
+        </div>
+      </div>
+      <div class="controls">
+        <input type="text" id="country" class="floatLabel" name="country">
+        <label for="country">Country</label>
+      </div>
+  </div>
+   <div class="form-group">
+    <h2 class="heading">Details</h2>
+    <div class="grid">
+    <div class="col-md-12">
+      <div class="controls">
+         <input type="date" id="arrive" class="floatLabel" name="arrive" value="<?php echo date('Y-m-d'); ?>"> 
+        <label for="arrive" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Arrive</label>
+      </div>      
+    </div>
+    <div class="col-md-12">
+      <div class="controls">
+        <input type="date" id="depart" class="floatLabel" name="depart" value="<?php echo date('Y-m-d'); ?>" />
+        <label for="depart" class="label-date"><i class="fa fa-calendar"></i>&nbsp;&nbsp;Depart</label>
+      </div>      
+    </div>
+      </div>
+      <div class="grid">
+    <div class="col-md-12">
+      <div class="controls">
+        <i class="fa fa-sort"></i>
+        <select class="floatLabel">
+          <option value="blank"></option>
+          <option value="1">1</option>
+          <option value="2" selected>2</option>
+          <option value="3">3</option>
+        </select>
+        <label for="fruit"><i class="fa fa-male"></i>&nbsp;&nbsp;People</label>
+      </div>      
+    </div>
+    <div class="col-md-12">
+    <div class="controls">
+      <i class="fa fa-sort"></i>
+      <select class="floatLabel">
+        <option value="blank"></option>
+        <option value="deluxe" selected>With Bathroom</option>
+        <option value="Zuri-zimmer">Without Bathroom</option>
+      </select>
+      <label for="fruit">Room</label>
+     </div>     
+    </div>
+
+    <div class="col-md-12">
+    <div class="controls">
+      <i class="fa fa-sort"></i>
+      <select class="floatLabel">
+        <option value="blank"></option>
+        <option value="single-bed">Zweibett</option>
+        <option value="double-bed" selected>Doppelbett</option>
+      </select>
+      <label for="fruit">Bedding</label>
+     </div>     
+    </div>
+      
+     </div>
+      <div class="grid">
+        <p class="info-text">Please describe your needs e.g. Extra beds, children's cots</p>
+        <br>
+        <div class="controls">
+          <textarea name="comments" class="floatLabel" id="comments"></textarea>
+          <label for="comments">Comments</label>
+          </div>
+            <button type="submit" value="Submit" class="col-1-4">Submit</button>
+      </div>  
+  </d
+  iv> 
+</form>   -->
+<section class="footer">
+	<div class="container">
+		<div class="row">
+
+<footer class="footer">
+	<ul class="footer-policy">
+		<li><a href ="#">Private Policy</a></li>
+		<li><a href ="#">Your Privacy Right</a></li>
+		<li><a href ="#">Terms</a></li>
+	</ul>
+</footer>
+</div>
+</div>
+</section>
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+	
+</html>

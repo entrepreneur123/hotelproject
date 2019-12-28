@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>destination</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css	">
+	<link  href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="header">
+<div class="container">
+	<nav class="primary-menu">
+		<div class="nav-left">
+<a href="#" class="develop">Seastreak Hotel</a>
+		</div>
+		<div class="nav-right">
+		<ul>
+
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="rooms.html">ROOMS</a></li>
+			<li><a href="memories.html">MEMORIES</a></li>
+			<li><a href="destination.html">DESTINATION</a>
+			<li><a href="booking.html">BOOKING</a>
+			<li><a href="gathering.html">GATHERINGS</a>
+			<ul>
+				<li><a href="wedding.html">WEDDING</a></li>
+				<li><a href="meeting.html">MEETING</a></li>
+			</ul>
+			</li>
+				
+
+		</ul>
+		</div>
+</div>
+  </div>
+</header>
+
+<section class="location">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				 
+    <iframe src="https://www.google.com/maps/d/embed?mid=1ujeY0OCD-r0SCFWf5PbeTVTFQHI" width="640" height="480"></iframe>
+    <script src="//code.ionicframework.com/nightly/js/ionic.bundle.js"></script>
+
+    <!-- google maps javascript -->
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>
+
+  
+  <body ng-controller="MapCtrl">
+    <ion-header-bar class="bar-dark" >
+      <h1 class="title">Map</h1>
+    <ion-content>
+    </ion-header-bar>
+      <div id="map" data-tap-disabled="true"></div>
+    </ion-content>
+    <ion-footer-bar class="bar-dark">
+      <a ng-click="centerOnMe()" class="button button-icon icon ion-navigate">Find Me</a>
+    </ion-footer-bar>
+  </body>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<ul class="footer-policy">
+		<li><a href ="#">Private Policy</a></li>
+		<li><a href ="#">Your Privacy Right</a></li>
+		<li><a href ="#">Terms</a></li>
+	</ul>
+
+</footer>
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+
+
+</body>
+	
+</html>
